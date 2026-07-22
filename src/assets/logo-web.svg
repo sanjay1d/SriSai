@@ -1,0 +1,28 @@
+<svg width="300" height="210" viewBox="0 0 300 210" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Sri Sai Corporation</title>
+  <defs>
+    <linearGradient id="sscBlue" x1="78" y1="24" x2="157" y2="129" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123E80"/>
+      <stop offset="1" stop-color="#05255B"/>
+    </linearGradient>
+    <linearGradient id="sscGold" x1="151" y1="29" x2="219" y2="129" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9B84F"/>
+      <stop offset="1" stop-color="#C08C27"/>
+    </linearGradient>
+    <filter id="softShadow" x="55" y="12" width="185" height="138" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#00152F" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)" stroke="#061637" stroke-width="1.4" stroke-linejoin="round">
+    <path d="M150 23 82 62v45l54 31v-31l-27-16V76l58-34-17-19Z" fill="url(#sscBlue)"/>
+    <path d="M136 54 100 75v26l61 35 31-18-61-35V72l36-21-31 3Z" fill="url(#sscBlue)"/>
+    <path d="M151 54 181 36l52 31v59l-66 38v-31l38-22V98l-53-30V54Z" fill="url(#sscGold)"/>
+    <path d="M167 66 216 94v28l-33-19V92l-31-18 15-8Z" fill="url(#sscGold)" opacity="0.92"/>
+  </g>
+
+  <text x="150" y="176" text-anchor="middle" fill="#082A63" font-family="Georgia, 'Times New Roman', serif" font-size="39" font-weight="700" letter-spacing="12">SRI SAI</text>
+  <line x1="57" y1="195" x2="105" y2="195" stroke="#C08C27" stroke-width="2"/>
+  <text x="150" y="200" text-anchor="middle" fill="#C08C27" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="8">CORPORATION</text>
+  <line x1="195" y1="195" x2="243" y2="195" stroke="#C08C27" stroke-width="2"/>
+</svg>

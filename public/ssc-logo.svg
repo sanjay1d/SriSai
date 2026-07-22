@@ -1,0 +1,24 @@
+<svg width="280" height="300" viewBox="0 0 280 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="navyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2B5A" />
+      <stop offset="100%" stop-color="#103A79" />
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C7A53A" />
+      <stop offset="100%" stop-color="#B78F2C" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(40 20)">
+    <path d="M84 0L24 43v84l60 34 60-34V43L84 0Z" fill="url(#navyGradient)" />
+    <path d="M84 0l60 43v84l-60 34-60-34V43l60-43Z" fill="url(#goldGradient)" opacity="0.95" />
+    <path d="M84 24 52 42v44l32 18 32-18V42L84 24Z" fill="white" opacity="0.07" />
+    <path d="M84 24 108 42v44l-24 14-24-14V42L84 24Z" fill="white" opacity="0.08" />
+  </g>
+
+  <text x="140" y="210" font-family="Playfair Display, Georgia, serif" font-size="36" font-weight="700" fill="#0B2B5A" text-anchor="middle" letter-spacing="4">SRI SAI</text>
+  <text x="140" y="250" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" fill="#B78F2C" text-anchor="middle" letter-spacing="6">CORPORATION</text>
+  <line x1="60" y1="264" x2="116" y2="264" stroke="#B78F2C" stroke-width="2" />
+  <line x1="164" y1="264" x2="220" y2="264" stroke="#B78F2C" stroke-width="2" />
+</svg>
